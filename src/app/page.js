@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { db } from "../../api/firebase/config";
+import { db } from "./api/firebase/config";
 
 export default function Home() {
   const data = db;
